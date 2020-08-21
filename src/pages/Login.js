@@ -18,6 +18,7 @@ const Login = () => {
       if (response && response.data) {
         if (response.data.StatusCode === 200) {
           localStorage.setItem('auth_token', response.data.token)
+          console.log(localStorage.getItem('auth_token'))
           history.push('/')
         }
         else if (response.data.StatusCode === 400) {
