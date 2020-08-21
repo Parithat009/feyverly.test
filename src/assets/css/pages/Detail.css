@@ -1,0 +1,143 @@
+.ui.grid.gridStyle{
+    margin: 0;
+}
+
+.imgstyle{
+    width: 60%;
+}
+
+.ui.grid>.row.rowStyle{
+    padding-right: 1.2rem;
+    padding-left: 1.2rem;
+}
+
+.ui.grid>.row.noPadding{
+    padding-right: 1.2rem;
+    padding-left: 1.2rem;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.title {
+    font-size: 1.5rem;
+    color: rgba(51, 51, 51, 1);
+    line-height: 25px;
+    font-weight: bold;
+}
+
+.ui.centered.grid>.row.rowStyle{
+    text-align: left;
+}
+
+.detailText {
+    color:rgba(133, 133, 133, 1);
+}
+
+.subTitleText{
+    
+    color: rgba(51, 51, 51, 1);
+    font-weight: bold;
+}
+
+.dangerText{
+    color: red;
+}
+
+.hrStyle{
+    /* width: 100%; */
+    text-align: center;
+    color: black;
+}
+
+.ui.bulleted.list>.item.listText{
+    color:rgba(72, 72, 72, 1);
+    font-weight: 500;
+}
+
+.ui.modal>.header.headerModal{
+    text-align: center;
+    background-color:rgba(51, 51, 51, 1) ;
+    color: white;
+}
+
+.ui.modal>.close{
+    color: white;
+}
+
+.ui.modal>.content.modalDetail{
+    background-color: rgba(51, 51, 51, 1) ;
+}
+
+.divContent{
+    padding: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: white;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+    border-radius: 2%;
+}
+
+.titleModal {
+    font-size: 1.2rem;
+    color: rgba(72, 72, 72, 1);
+    line-height: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.detailModal {
+    font-size: 1.1rem;
+    color: rgba(72, 72, 72, 1);
+    line-height: 25px;
+    text-align: center;
+}
+
+.imgModal{
+    margin-bottom: 15px;
+}
+
+.qrCode{
+    padding: 1.5rem;
+}
+
+.chooseQrCode{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;  
+    flex-wrap:wrap
+}
+
+.ui.button.btnModal {
+    width: 55px;
+    margin: 2px;
+}
+
+.ui.button.btnModalActive {
+    width: 55px;
+    margin: 2px;
+    background-color: black;
+    color: white;
+}
+
+.footerModal{
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white; 
+    text-align: center;
+
+    font-size: 1rem;
+}
+
+@media(max-width:768px){
+    .imgstyle{
+        width: 100%;
+    }
+}
